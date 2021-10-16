@@ -1,0 +1,65 @@
+.parrent {
+    padding: 20px;
+    display: grid;
+    place-items: center;
+}
+
+body {
+    background: #151817;
+    
+}
+.container {
+    border: 10px;
+    border-radius: 10px;
+    display: grid;
+    background-color: #3C688D;
+}
+@font-face {
+        font-family: ubuntu;
+        src: url(./UbuntuMono-B.ttf);
+}
+.tribut {
+    text-align: center;
+    background: #112772;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #ffffff;
+    font-family: 'ubuntu';
+}
+.count {
+    margin: auto;
+    padding: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'ubuntu';
+}
+
+.but {
+    align: center;
+    margin-left: 50px;
+}
+button {
+    font-family: 'ubuntu';
+    font-variant: inherit;
+    align: center;
+    display: inline-block;
+    background: #4285F4;
+    color: #fff;
+    width: 240px;
+    height: 50px;
+    border-radius: 90px;
+    border: thin solid #12ab;
+    box-shadow: 1px 1px 1px #383A36;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'ubuntu';
+    margin: 2rem 0;
+}

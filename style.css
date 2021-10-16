@@ -63,3 +63,12 @@ button {
     font-family: 'ubuntu';
     margin: 2rem 0;
 }
+
+.foot {
+    display: grid;
+    text-align: center;
+    font-family: 'ubuntu';
+    font-size: 2px;
+    padding-top: 200px;
+    margin: 50px;
+}

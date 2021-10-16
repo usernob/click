@@ -67,9 +67,10 @@ button {
 
 .foot {
     display: grid;
+    color: #ffffff;
     text-align: center;
     font-family: 'ubuntu';
-    font-size: 2px;
+    font-size: 10px;
     padding-top: 200px;
     margin: 50px;
 }

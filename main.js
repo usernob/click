@@ -1,7 +1,14 @@
 var output = document.getElementById("output");
 var button = document.getElementById("click")
 var n = 0;
+function generateHex() {
+    return `#${Math.floor(Math.random() * 0xffffff)
+    .toString(16)
+    .padEnd(6, "0")}`;
+}
 function clicker() {
+    const buttonElement = document.querySelector("button");
+    const newColor = generateHex();
     n++
     if (n == 100) {
         button.innerHTML = "click terus ngab";
@@ -14,4 +21,5 @@ function clicker() {
     }
     //console.log(n);
     output.innerHTML = n;
+    buttonElement.style.backgroundColor = newColor;
 }

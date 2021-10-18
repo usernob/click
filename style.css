@@ -1,8 +1,4 @@
-.parrent {
-    padding: 20px;
-    display: grid;
-    place-items: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
     background: #151817;
@@ -47,8 +43,7 @@ body {
     margin-left: 50px;
 }
 button {
-    font-family: 'ubuntu';
-    font-variant: inherit;
+    font-family: 'Poppins', Sans-Serif;
     align: center;
     display: inline-block;
     background: #4285F4;
@@ -61,7 +56,6 @@ button {
     white-space: nowrap;
     font-size: 16px;
     font-weight: normal;
-    font-family: 'ubuntu';
     margin: 2rem 0;
 }
 
@@ -69,7 +63,7 @@ button {
     display: grid;
     color: #ffffff;
     text-align: center;
-    font-family: 'ubuntu';
+    font-family: 'Poppins', Sans-Serif;
     font-size: 10px;
     padding-top: 200px;
     margin: 50px;
